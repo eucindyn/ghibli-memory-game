@@ -3,5 +3,5 @@ Um jogo da memória usando como tema personagens de filmes do Studio Ghibli, fei
 </div><br>
 
 <div align="center">
- <img src="" width="700px"/>
+ <img src="https://user-images.githubusercontent.com/92797194/180015835-beb519c9-4183-4fc4-84f1-4ee423cf8d09.png" width="700px"/>
 </div>
