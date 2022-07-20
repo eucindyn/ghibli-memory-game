@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url("../imgs/totoro-initial.jpg");
+  background-image: url("../imgs/totoro-bg.jpg");
 }
 
 footer a {
@@ -20,5 +20,6 @@ footer a {
  align-items: center;
  justify-content: center;
  text-decoration: none;
- color: darkgreen;
+ font-size: 14px;
+ color: #ccc;
 }

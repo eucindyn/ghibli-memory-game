@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+.login-form h1 {
+  color: #eee;
+}
+
 .login-header {
   display: flex;
   align-items: center;
@@ -16,7 +20,7 @@
 }
 
 .login-input {
-  border: 2px solid #333;
+  border: 2px solid pink;
   border-radius: 5px;
   outline: none;
   font-size: 1.5rem;
@@ -28,11 +32,11 @@
 }
 
 .login-input:hover, .login-input:focus {
-  border-color: darkgreen;
+  border-color: palevioletred;
 }
 
 .login-button {
-  background-color: darkgreen;
+  background-color: palevioletred;
   padding: 15px;
   border-radius: 5px;
   font-size: 1.5rem;
@@ -44,11 +48,11 @@
 }
 
 .login-button:hover {
-  background-color: #2FAA4C;
+  background-color: plum;
 }
 
 .login-button:disabled {
-  background-color: #aaa;
-  color: #eee;
+  background-color: #ccc;
+  color: #fff;
   cursor: auto;
 }
