@@ -24,12 +24,16 @@ const createElement = (tag, className) => {
 let firstCard = '';
 let secondCard = '';
 
+const customAlert = () => {
+  alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML} segundos`);
+}
+
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    customAlert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+    customAlert();
   }
 };
 
